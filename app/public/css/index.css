@@ -1,0 +1,223 @@
+body {
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+
+.container {
+	background-color: #162238;
+	position: relative;
+}
+
+#home {
+	margin: 10px;
+}
+
+.table {
+	font-family: 'Syncopate', sans-serif;
+	font-size: 12px;
+}
+
+#jumbo {
+	margin-top: -4px;
+	opacity: 0;
+	background-image: url("../images/68273_302516166516107_862938243_n.jpg");
+	overflow: hidden;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: 50% 30%;
+	height: 225px;
+}
+
+#tronText {
+	color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+}
+
+#profileImage {
+	width: 100%;
+	height: 100%;
+}
+
+#outerHomeText {
+	margin-right: -100px;
+	margin-left: 100px;
+	opacity: 0;
+	padding: 10px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #c7cfdd;
+	background-color: #162238;
+	height: 300px;
+	overflow: hidden;
+}
+
+#homeText {
+	background-color: #c7cfdd;
+	height: 100%;
+	overflow: auto;
+}
+
+#outerImageDiv {
+	padding: 10px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #c7cfdd;
+	background-color: #162238;
+	height: 300px;
+	text-align: center;
+	margin-left: -30px;
+	opacity: 0;
+}
+
+#innerImageDiv {
+	background-color: #162238;
+	height: 100%;
+	position: relative;
+}
+
+#firstRow {
+	margin-top: 45px;
+}
+
+#secondRow {
+	margin-top: -30px;
+}
+
+#thirdRow {
+	margin-bottom: 40px;
+}
+
+#mainBioDiv {
+	text-align: center;
+	padding: 0px;
+}
+
+#bioImage {
+	background-image: url("../images/img_0268_2.jpg");
+	height: 900px;
+	width: 100%;
+	background-size: cover;
+	background-position: center top;
+	margin-left: 15px;
+	opacity: 0.0;
+}
+
+#innerBioDiv {
+	height: 100%;
+	width: 100%;
+}
+
+p {
+	color: #162238;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+#bioDesc {
+	background-color: rgba(199, 207, 221, 0.6);
+	opacity: 0.0;
+	box-shadow: 5px 5px 5px black;
+	top: -50px;
+}
+
+#tableTwo {
+	display: none;
+}
+
+/* MEDIA QUERIES */
+
+/* For very small screens */
+@media (max-width : 480) {
+	#jumbo {
+		height: 250px;
+	}
+	p {
+		font-size: 20px;
+		margin-top: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+/* For Mobile */
+@media (max-width : 992px) {
+	#indexContainer {
+		position: absolute;
+		width: 100%;
+	}
+	#jumbo {
+		height: 400px;
+		margin-top: 30px;
+	}
+	#tronText {
+		font-size: 70px;
+		text-align: center;
+	}
+	#bioDesc {
+		height: 1300px;
+	}
+	#bioImage {
+		height: 1300px;
+		opacity: 0;
+	}
+	#outerHomeText {
+		margin-left: 0px;
+		margin-right: 0px;
+		height: auto;
+	}
+	#outerImageDiv {
+		display: none;
+	}
+	.table {
+		font-size: 30px;
+	}
+	#table {
+		display: none;
+	}
+	#tableTwo {
+		display: inline;
+	}
+	#homeText {
+		width: 100%;
+	}
+	p {
+		font-size: 25px;
+		margin-top: 30px;
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+}
+
+/* Medium Screens */
+@media (min-width : 992px) {
+	#outerHomeText {
+		height: 250px;
+		opacity: 0.0;
+	}
+	#outerImageDiv {
+		height: 250px;
+	}
+	#jumbo {
+		height: 200px;
+		opacity: 0.0;
+		margin-top: 
+	}
+	#tronText {
+		font-size: 68px;
+	}
+}
+
+/* Large Screens */
+@media (min-width : 1200px) {
+	#outerHomeText {
+		height: 300px;
+	}
+	#outerImageDiv {
+		height: 300px;
+	}
+	#jumbo {
+		height: 225px;
+	}
+}

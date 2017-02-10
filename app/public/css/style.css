@@ -1,0 +1,123 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	height: 100%;
+	background-image: url('../images/68273_302516166516107_862938243_n.jpg');
+	background-size: cover;
+	background-position: center top;
+	overflow: auto;
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+    background-color: #162238;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    height: 50px;
+}
+
+.navbar.center .navbar-inner .nav {
+    display: inline-block;
+    float: none;
+    height: 50px;
+}
+
+.mainNav{
+  width: 100%;
+  background: #162238;
+  font-family: 'Syncopate', sans-serif;
+  display: inline-block;
+  height: 100px;
+  margin-bottom: 0px;
+ }
+.navicon{
+  font-size: 55px;
+  margin: 0px;
+  float: right;
+  color: #c7cfdd;
+ }
+.mainNavDropDown{
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  display: none;
+ }
+.mainNavDropDown li{
+  font-size: 20px;
+  padding: 25px;
+  width: 100%;
+  background: #162238;
+  border-bottom: 1px solid black;
+ }
+.mainNavDropDown li:last-child{
+  border-bottom: none;
+ }
+.mainNavDropDown li:hover{
+  background: #cebfc4;
+  color: #162238;
+ }
+
+ #navSmall {
+ 	display: none;
+ }
+
+ .navbarItem {
+ 	font-family: 'Syncopate', sans-serif;
+ }
+
+ a, .navbar-default .navbar-nav>li>a {
+ 	color: #c7cfdd;
+ 	font-weight: bold;
+ }
+
+ a:hover {
+ 	color: #4d4e5c;
+ }
+
+p {
+	padding: 10px;
+	font-family: 'Syncopate', sans-serif;
+	color: #162238;
+	font-size: 16px;
+}
+
+#footer {
+	position: fixed;
+	height: 42px;
+	background-color: #162238;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin-bottom: 0px;
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	text-align: center;
+}
+
+.socMedIcon {
+	height: 33px;
+	width: 33px;
+	margin: 4px 20px 4px 20px;
+}
+
+@media (max-width : 992px) {
+	#footer {
+		height: 100px;
+	}
+	.socMedIcon {
+		height: 66px;
+		width: 66px;
+		margin: 14px 40px 14px 40px;
+	}
+	#navLarge {
+		display: none;
+	}
+	#navSmall {
+		display: inline;
+	}
+}

@@ -1,0 +1,127 @@
+body {
+	overflow-y: auto;
+	overflow-x: hidden;
+	background-attachment: fixed;
+}
+
+.container {
+	position: absolute;
+	top: 45px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	height: auto;
+}
+
+.portItemDesc, .portItemDescLong {
+	background-color: rgba(199, 207, 221, 0.6);
+	box-shadow: 5px 5px 5px black;
+	opacity: 0.0;
+}
+
+.portItemDescLong {
+	margin-top: -12%;
+}
+
+h2 {
+	padding: 10px;
+	font-family: 'Syncopate', sans-serif;
+	color: #162238;
+}
+
+p {
+	font-size: 10px;
+}
+
+.portImg {
+	height: 50%;
+	width: 100%;
+	background-size: cover;
+	background-position: center top;
+	background-attachment: fixed;
+	position: absolute;
+	cursor: pointer;
+}
+
+#portImageOne {
+	opacity: 0.0;
+	margin-left: 1500px;
+	background-image: url('../images/303870_2473299963197_702517819.jpg');
+}
+
+#portImageTwo {
+	opacity: 0.0;
+	margin-left: -1500px;
+	background-image: url('../images/319626_2473347804393_361954949_n.jpg');
+	top: 50%;
+}
+
+#portImageThree {
+	opacity: 0.0;
+	margin-left: 1500px;
+	background-image: url('../images/303870_2473299883195_202066408_n.jpg');
+	top: 100%;
+}
+
+#portImageFour {
+	opacity: 0.0;
+	margin-left: -1500px;
+	background-image: url('../images/1457682_10153518270480246_1423450773_n.jpg');
+	top: 150%;
+}
+
+#portImageFive {
+	opacity: 0.0;
+	margin-left: 1500px;
+	background-image: url('../images/10445554_574536892687783_3395580984053393424_n.jpg');
+	top: 200%;
+	margin-bottom: 0px;
+}
+
+.navicon {
+	padding: 10px 80px 10px 80px;
+	font-size: 55px;
+}
+
+@media (max-width : 992px) {
+	#portfolioContainer {
+		position: absolute;
+		width: 100%;
+	}
+	.portImg {
+		background-attachment: initial;
+		margin-top: 50px;
+		height: 30%;
+		background-position: center;
+	}
+	#portImageTwo {
+		top: 30%;
+	}
+
+	#portImageThree {
+		top: 60%;
+	}
+
+	#portImageFour {
+		top: 90%;
+	}
+
+	#portImageFive {
+		top: 120%;
+		margin-bottom: 50px;
+	}
+	.portItemDesc {
+		display: none;
+	}
+	.portItemDescLong {
+		background-color: rgba(199, 207, 221, 1.0);
+		height: 30%;
+		bottom: 100px;
+		position: fixed;
+		z-index: 4; 
+	}
+	p {
+		font-size: 20px;
+	}
+}

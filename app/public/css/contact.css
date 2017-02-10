@@ -1,0 +1,87 @@
+.container {
+	position: absolute;
+	top: 45px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	height: auto;
+	background-color: #162238;
+}
+
+h2 {
+	padding: 5px;
+	font-family: 'Syncopate', sans-serif;
+	color: #c7cfdd;
+	opacity: 0.0;
+}
+
+#result {
+	font-family: 'Syncopate', sans-serif;
+	color: #c7cfdd;
+	display: inline-block;
+	padding: 10px;
+	opacity: 0.0;
+}
+
+label {
+	font-family: 'Syncopate', sans-serif;
+	color: #c7cfdd;
+	font-size: 14px;
+	text-align: right;
+	opacity: 0.0;
+}
+
+#message {
+	font-family: sans-serif;
+}
+
+.form-control {
+	background-color: #162238;
+	border-color: #162238;
+	border-bottom-color: #c7cfdd;
+	color: #c7cfdd;
+	font-family: 'Syncopate', sans-serif;
+	width: 0%;
+}
+
+.myButton {
+	background-color: #8d7b92;
+	color: #c7cfdd;
+	border-color: #c7cfdd;
+	font-family: 'Syncopate', sans-serif;
+	font-size: 12px;
+}
+
+.myButton:hover {
+	background-color: #cebfc4;
+}
+
+.myButton:focus {
+	background-color: #cebfc4;
+	border-color: #c7cfdd;
+}
+
+.myButton:active {
+	background-color: #4d4e5c;
+}
+
+#lastRow {
+	margin-bottom: 50px;
+}
+
+.navicon {
+	padding: 10px 80px 10px 80px;
+	font-size: 55px;
+}
+
+@media (max-width : 992px) {
+	#contactContainer {
+		position: absolute;
+		width: 100%;
+		top: 100px;
+	}
+	label {
+		font-size: 20px;
+	}
+}
