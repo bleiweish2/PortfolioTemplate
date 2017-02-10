@@ -6,7 +6,7 @@
 	right: 0;
 	z-index: -1;
 	height: auto;
-	background-color: #162238;
+	background-color: #4a0001;
 }
 
 h2 {
@@ -37,8 +37,8 @@ label {
 }
 
 .form-control {
-	background-color: #162238;
-	border-color: #162238;
+	background-color: #4a0001;
+	border-color: #4a0001;
 	border-bottom-color: #c7cfdd;
 	color: #c7cfdd;
 	font-family: 'Syncopate', sans-serif;
@@ -46,24 +46,24 @@ label {
 }
 
 .myButton {
-	background-color: #8d7b92;
-	color: #c7cfdd;
+	background-color: #f9b756;
+	color: #4a0001;
 	border-color: #c7cfdd;
 	font-family: 'Syncopate', sans-serif;
 	font-size: 12px;
 }
 
 .myButton:hover {
-	background-color: #cebfc4;
+	background-color: #f1e495;
 }
 
 .myButton:focus {
-	background-color: #cebfc4;
+	background-color: #f1e495;
 	border-color: #c7cfdd;
 }
 
 .myButton:active {
-	background-color: #4d4e5c;
+	background-color: #f35818;
 }
 
 #lastRow {

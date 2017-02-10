@@ -27,7 +27,7 @@ body {
 h2 {
 	padding: 10px;
 	font-family: 'Syncopate', sans-serif;
-	color: #162238;
+	color: #4a0001;
 }
 
 p {
@@ -38,7 +38,7 @@ p {
 	height: 50%;
 	width: 100%;
 	background-size: cover;
-	background-position: center top;
+	background-position: center center;
 	background-attachment: fixed;
 	position: absolute;
 	cursor: pointer;
@@ -47,34 +47,34 @@ p {
 #portImageOne {
 	opacity: 0.0;
 	margin-left: 1500px;
-	background-image: url('../images/303870_2473299963197_702517819.jpg');
+	background-image: url('../images/portfolio1.jpg');
 }
 
 #portImageTwo {
 	opacity: 0.0;
 	margin-left: -1500px;
-	background-image: url('../images/319626_2473347804393_361954949_n.jpg');
+	background-image: url('../images/portfolio2.jpg');
 	top: 50%;
 }
 
 #portImageThree {
 	opacity: 0.0;
 	margin-left: 1500px;
-	background-image: url('../images/303870_2473299883195_202066408_n.jpg');
+	background-image: url('../images/portfolio3.png');
 	top: 100%;
 }
 
 #portImageFour {
 	opacity: 0.0;
 	margin-left: -1500px;
-	background-image: url('../images/1457682_10153518270480246_1423450773_n.jpg');
+	background-image: url('../images/portfolio4.jpg');
 	top: 150%;
 }
 
 #portImageFive {
 	opacity: 0.0;
 	margin-left: 1500px;
-	background-image: url('../images/10445554_574536892687783_3395580984053393424_n.jpg');
+	background-image: url('../images/portfolio5.jpg');
 	top: 200%;
 	margin-bottom: 0px;
 }

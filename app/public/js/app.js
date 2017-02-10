@@ -2,10 +2,9 @@ $(document).ready(function() {
   //CAROUSEL
     //add more images here
     var imageURLSBio = [
-      'img_0268_2.jpg',
-      '421231_3232546823894_155990807.jpg',
-      '68298_302516633182727_12237966.jpg',
-      '549642_10201037261398478_68705.jpg'
+      'bio1.jpg',
+      'bio2.jpg',
+      'bio3.jpg'
     ];
     var imagePositionBio = 1;
     setInterval(function() {
@@ -28,9 +27,9 @@ $(document).ready(function() {
     //CAROUSEL
     //add more images here
     var imageURLSMain = [
-      'joshua.png',
-      '424075_4788125592391_328148535_n.jpg',
-      '374547_4510475211305_454145329.jpg'
+      'actor3.jpg',
+      'actor1.jpg',
+      'actor2.jpg',
     ];
 
     setInterval(function() {

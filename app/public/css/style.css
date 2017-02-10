@@ -4,7 +4,7 @@ html {
 
 body {
 	height: 100%;
-	background-image: url('../images/68273_302516166516107_862938243_n.jpg');
+	background-image: url('../images/curtains.jpg');
 	background-size: cover;
 	background-position: center top;
 	overflow: auto;
@@ -12,7 +12,7 @@ body {
 
 .navbar.center .navbar-inner {
     text-align: center;
-    background-color: #162238;
+    background-color: #4a0001;
     border-color: white;
     border-width: 1px;
     border-style: solid;
@@ -27,18 +27,20 @@ body {
 
 .mainNav{
   width: 100%;
-  background: #162238;
+  background: #4a0001;
   font-family: 'Syncopate', sans-serif;
   display: inline-block;
   height: 100px;
   margin-bottom: 0px;
  }
+
 .navicon{
   font-size: 55px;
   margin: 0px;
   float: right;
   color: #c7cfdd;
  }
+
 .mainNavDropDown{
   padding-left: 0;
   margin: 0;
@@ -46,16 +48,19 @@ body {
   text-align: center;
   display: none;
  }
+
 .mainNavDropDown li{
   font-size: 20px;
   padding: 25px;
   width: 100%;
-  background: #162238;
+  background: #4a0001;
   border-bottom: 1px solid black;
  }
+
 .mainNavDropDown li:last-child{
   border-bottom: none;
  }
+
 .mainNavDropDown li:hover{
   background: #cebfc4;
   color: #162238;
@@ -81,14 +86,14 @@ body {
 p {
 	padding: 10px;
 	font-family: 'Syncopate', sans-serif;
-	color: #162238;
+	color: #4a0001;
 	font-size: 16px;
 }
 
 #footer {
 	position: fixed;
 	height: 42px;
-	background-color: #162238;
+	background-color: #4a0001;
 	bottom: 0px;
 	left: 0px;
 	right: 0px;

@@ -13,7 +13,7 @@ $(document).ready(function() {
 	}, 850, "swing");
 	$(".form-control").hover(function() {
 		$(this).animate({
-			borderBottomColor: "#8d7b92",
+			borderBottomColor: "#f9b756",
 			borderWidth: "3px"
 		}, 100);
 	}, function() {

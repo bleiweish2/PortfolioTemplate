@@ -6,7 +6,7 @@
 	right: 0;
 	z-index: -1;
 	height: auto;
-	background-color: #162238;
+	background-color: #4a0001;
 }
 
 #outerImageDiv {
@@ -16,12 +16,12 @@
 	border-width: 2px;
 	border-style: solid;
 	border-color: #c7cfdd;
-	background-color: #162238;
+	background-color: #4a0001;
 	height: 300px;
 }
 
 #innerImageDiv {
-	background-color: #162238;
+	background-color: #4a0001;
 	height: 100%;
 }
 
@@ -49,24 +49,24 @@ h4, h3, h2, h1 {
 .myButton {
 	position: absolute;
 	bottom: 2px;
-	background-color: #8d7b92;
-	color: #c7cfdd;
+	background-color: #f9b756;
+	color: #4a0001;
 	border-color: #c7cfdd;
 	font-family: 'Syncopate', sans-serif;
 	font-size: 12px;
 }
 
 .myButton:hover {
-	background-color: #cebfc4;
+	background-color: #f1e495;
 }
 
 .myButton:focus {
-	background-color: #cebfc4;
+	background-color: #f1e495;
 	border-color: #c7cfdd;
 }
 
 .myButton:active {
-	background-color: #4d4e5c;
+	background-color: #f35818;
 }
 
 #table {
@@ -83,7 +83,7 @@ h4, h3, h2, h1 {
 	margin-bottom: 40px;
 	border-style: solid;
 	border-color: #c7cfdd;
-	background-color: #162238;
+	background-color: #4a0001;
 }
 
 #innerResumeDiv {
